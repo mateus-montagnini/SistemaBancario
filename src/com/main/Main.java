@@ -19,5 +19,7 @@ public class Main {
 
         cp.sacar(150);
         System.out.println("O saldo atual da conta poupanca: " + cp.getSaldo());
+
+        cp.simularRendimento(0.1);
     }
 }
